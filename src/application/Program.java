@@ -16,11 +16,12 @@ public class Program {
             System.out.println("Enter account data");
             System.out.print("Number : ");
             int number = sc.nextInt();
-            System.out.println("Holder : ");
+            System.out.print("Holder : ");
+            sc.nextLine();
             String holder = sc.next();
-            System.out.println("Initial balance : ");
+            System.out.print("Initial balance : ");
             double initialBalance = sc.nextDouble();
-            System.out.println("Withdraw limit : ");
+            System.out.print("Withdraw limit : ");
             double withdrawLimit = sc.nextDouble();
 
             Account account = new Account(number, holder, initialBalance, withdrawLimit);
