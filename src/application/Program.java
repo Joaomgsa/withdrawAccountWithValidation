@@ -18,7 +18,7 @@ public class Program {
             int number = sc.nextInt();
             System.out.print("Holder : ");
             sc.nextLine();
-            String holder = sc.next();
+            String holder = sc.nextLine();
             System.out.print("Initial balance : ");
             double initialBalance = sc.nextDouble();
             System.out.print("Withdraw limit : ");
